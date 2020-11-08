@@ -1,0 +1,3 @@
+135f9224-8c69-4f05-a9a4-e41073cee848
+https://open-platform.theguardian.com/documentation/
+https://content.guardianapis.com/search?api-key=135f9224-8c69-4f05-a9a4-e41073cee848
