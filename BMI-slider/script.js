@@ -1,7 +1,7 @@
 const height = document.getElementById("height");
 const weight = document.getElementById("weight");
 const BMI = document.getElementById("BMI");
-let BMIBackgroundColor = document.getElementById("bmiBackgroundColor").style;
+const BMIBackgroundColor = document.getElementById("bmiBackgroundColor").style;
 BMIBackgroundColor.backgroundColor = "yellow";
 
 const heightSlider = document.getElementById("heightSlider");
@@ -125,9 +125,9 @@ const color = {
 
 const calculateBMI = () => {
   BMI.innerText = Math.round(+weightSlider.value / (((+heightSlider.value / 100) * +heightSlider.value) / 100));
+
   let BMIValue = parseInt(BMI.innerText);
   HEX = color[BMIValue];
-
   BMIBackgroundColor.backgroundColor = HEX;
 };
 

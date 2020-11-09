@@ -1,0 +1,73 @@
+BUSINESS
+==========================================================================
+calender
+office clone
+evernote clone
+
+DEVELOPER TOOLS
+==========================================================================
+standard web component libary
+css box-shadow generator
+pig latin generator
+hipster ipsum generator
+hex color wheel
+
+FINANCE
+=========================================================================
+stock market ticker
+valuta conversion
+
+GAMES
+=========================================================================
+pong
+tick tack too
+hangman
+four in a row
+memory
+simon says
+duck hunt
+four in a row
+flappy bird
+mario clone
+cards template
+quiz template
+dice temlate
+
+HEALTH & FITNESS
+=========================================================================
+bmi calculator
+exersise timer
+
+PRODUCTIVITY
+=========================================================================
+trello cloon
+
+STANDARD WEB COMPONENT & TEMPLATE LIBRARY | https://docs.bit.dev/docs/quick-start
+=========================================================================
+map, filter, paginate JSON Object
+hamburger menu
+carousel
+image prev next
+modal
+read more/less
+dropdown info
+tabs
+popover
+toasts
+form validation
+=========================================================================
+starter css template
+starter html template
+starter react template
+basic website layout template
+
+UTILITIES
+=========================================================================
+calculator
+stopwatch
+metric calculator
+world time zones
+
+WEATHER
+=========================================================================
+7 day weather forecast
