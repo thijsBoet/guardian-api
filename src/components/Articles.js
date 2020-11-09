@@ -8,10 +8,11 @@ export default function Articles() {
   const [searchTerm, setSearchTerm] = useState("");
   const apiKey = "135f9224-8c69-4f05-a9a4-e41073cee848";
 
-  const fetchArticles = async (searchTerm) => {
+  const fetchArticles = async () => {
     setLoading(true);
     try {
       searchTerm.split(" ").join("%20");
+      console.log(searchTerm)
       const res = await fetch(
         `https://content.guardianapis.com/search?${searchTerm}&api-key=${apiKey}`
       );
@@ -29,8 +30,13 @@ export default function Articles() {
     }
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setSearchTerm(e.target.value)
+  }
+
   useEffect(() => {
-    fetchArticles(searchTerm);
+    fetchArticles();
   }, []);
 
   if (loading) {
@@ -40,7 +46,7 @@ export default function Articles() {
     <div className="container">
       <form
         className="search-form"
-        onSubmit={(e) => setSearchTerm(e.target.value)}
+        onSubmit={(e) => handleSubmit(e)}
       >
         <div className="form-control">
           <label htmlFor="search-term">Search The Guardian</label>
